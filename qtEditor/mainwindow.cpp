@@ -45,9 +45,9 @@ void MainWindow::openFile(const QString &path)
 void MainWindow::setupEditor()
 {
     QFont font;
-    font.setFamily("Courier");
+    font.setFamily("Monaco");
     font.setFixedPitch(true);
-    font.setPointSize(10);
+    font.setPointSize(7);
 
     editor = new QTextEdit;
     editor->setFont(font);
